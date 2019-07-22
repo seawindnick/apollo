@@ -21,6 +21,7 @@ public class AnnotationApplication {
     System.out.println("AnnotationApplication Demo. Input any key except quit to print the values. Input quit to exit.");
     while (true) {
       System.out.print("> ");
+      System.out.println("测试提交");
       String input = new BufferedReader(new InputStreamReader(System.in, Charsets.UTF_8)).readLine();
       if (!Strings.isNullOrEmpty(input) && input.trim().equalsIgnoreCase("quit")) {
         System.exit(0);
